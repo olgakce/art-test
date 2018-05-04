@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inflorescent Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+    <script src="main.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Tenor+Sans');
+        </style>
+        <style>
+                @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+                </style>
+</head>
+<body>
+<header>
+<video autoplay muted loop id="backgroundVideo">
+<source src="/Users/olgapodsiadlo/Desktop/strona 3/pictures/forest.mp4" type="video/mp4">
+</video>
+<h1> Inflorescent Art</h1>
+<nav>
+<ul>
+    <li><a href=#backgroundVideo>Home</a></li>
+    <li><a href=#about>About</a/li>
+    <li><a href=#art>Art</a></li>
+    <li><a href=#contact>Contact</a></li>
+</ul>
+</nav>
+<main>
+<section id="about">
+<h3>About</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam cupiditate optio eligendi magnam, impedit rerum earum inventore autem dicta excepturi voluptatem commodi necessitatibus fugit officia magni vero quo non repellendus?
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed quibusdam dolore alias repudiandae rem, maiores minus tenetur vel earum reprehenderit soluta explicabo corporis pariatur necessitatibus blanditiis deserunt cum sapiente.
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, assumenda id facere inventore dolor, aperiam, nulla recusandae aspernatur nihil praesentium debitis! Neque reprehenderit nam magnam expedita voluptatum maiores repudiandae nostrum.
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque atque quod nam ullam similique placeat sapiente ipsa fuga adipisci expedita enim ipsum possimus quis nostrum, accusantium unde excepturi ex!
+   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, aperiam commodi pariatur quis ipsam corporis. Tenetur eligendi modi, blanditiis atque natus error facilis nemo quidem fugit quia dicta praesentium ad?
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat maxime excepturi dolore vitae labore magni, nulla aliquid nostrum rem voluptate a? Rerum quae sunt placeat recusandae natus libero sequi.
+   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, sed. Vitae tempore omnis labore quia saepe quisquam laboriosam eaque dolorum numquam! Culpa pariatur, exercitationem aliquam unde fugit beatae repellat voluptates.
+</p>
+<img src="/Users/olgapodsiadlo/Desktop/strona 3/pictures/11.png">
+</section>
+<section id="art">
+<h3> Art </h3>
+<img src="/Users/olgapodsiadlo/Desktop/strona 3/pictures/leaves3.png">
+<figure class="circle"></figure>
+<p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam cupiditate optio eligendi magnam, impedit rerum earum inventore autem dicta excepturi voluptatem commodi necessitatibus fugit officia magni vero quo non repellendus?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed quibusdam dolore alias repudiandae rem, maiores minus tenetur vel earum reprehenderit soluta explicabo corporis pariatur necessitatibus blanditiis deserunt cum sapiente.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, assumenda id facere inventore dolor, aperiam, nulla recusandae aspernatur nihil praesentium debitis! Neque reprehenderit nam magnam expedita voluptatum maiores repudiandae nostrum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque atque quod nam ullam similique placeat sapiente ipsa fuga adipisci expedita enim ipsum possimus quis nostrum, accusantium unde excepturi ex!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, aperiam commodi pariatur quis ipsam corporis. Tenetur eligendi modi, blanditiis atque natus error facilis nemo quidem fugit quia dicta praesentium ad?
+        </p>
+</section> 
+<section class="images">      
+<img class="first" src="/Users/olgapodsiadlo/Desktop/strona 3/pictures/3.png">
+<img class="second" src ="/Users/olgapodsiadlo/Desktop/strona 3/pictures/palms1.jpg">
+<img class="third" src="/Users/olgapodsiadlo/Desktop/strona 3/pictures/palms2.jpg">
+<div class="box-a"></div>
+</section>      
+<section class="background">
+    <figure class="circle2"></figure>
+</section>
+</main> 
+<footer>
+    <section id="contact">
+    <figure class="circle3"></figure>
+    <h3>Contact us</h3>
+    <p><a href="mailto:inflorescent@on.com">inflorescent@on.com</a></p>
+    </section>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+<script>
+    $(document).ready(function() {
+                
+    });
+$(document).ready(function() { 
+
+$('a[href^="#"]').on('click', function(event) {
+
+    var target = $( $(this).attr('href') );
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1500);
+    }
+});
+
+});
+</script>
+</body>
+</html>

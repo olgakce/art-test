@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+body {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+#backgroundVideo {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    border-top: 70px solid white;
+    border-left: 40px solid #FFF;
+    border-right: 40px solid white;
+}
+header h1 {
+    z-index: 2;
+    position: absolute;
+    top: 3.5em;
+    left: 3%;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+nav {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    max-width: 100%; 
+    position: fixed; 
+    margin: 0 auto;
+    z-index: 3;
+    
+}
+nav ul {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  margin-top: -58%;
+  
+  
+  
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+   
+}
+nav a:link {
+    color: red;
+    text-decoration: none;
+}
+nav a:visited {
+    color: red;
+}
+nav a:hover {
+    color: black;
+}
+main {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+#about {
+width: 70%;
+max-width: 100%;
+height: auto;
+margin-top: 12%;
+float: left;
+
+
+}
+
+#about h3 {
+    color: black;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about p {
+    text-align: left;
+    font-size: 1.3em;
+    padding: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: "Cutive Mono";
+    color: black;
+    
+}
+#about img {
+    float: right;
+    position: relative;
+    margin-top: -80%;
+    margin-right: -35%;
+}
+#art {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+#art h3 {
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em;
+}
+#art img {
+    transform: rotate(60deg);
+    position: relative;
+    z-index: 2;   
+}
+.circle {
+    
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to right top, #ff0808, #dc0408, #ba0107, #990005, #790000);
+    
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -55%;
+    z-index: 1;
+    box-shadow: 32px 44px 53px 6px rgba(0,0,0,0.44);   
+}
+#art p {
+    text-align: right;
+    font-size: 1.3em;
+    padding: 2.5em;
+    margin-top: -58%;
+    margin-left: 50%;
+    font-family: "Cutive Mono";
+    color: black;
+    width: 50%;
+    
+}
+.images .first {
+    width: 35%;
+    height: auto;
+    transform: rotate(90deg);
+   
+}
+.images .second {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin: 2% 4% 2% 4%;
+}
+.images .third {
+    width: 25%;
+    height: auto;
+    float: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+}
+.box-a {
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to left, #2dbb1a, #00a123, #ffffff);
+}
+.background {
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona 3/pictures/background1.jpg");
+    background-position-x: 50%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.circle2 {
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #FFF, rgb(165, 165, 165));
+    box-shadow: 20px 40px 50px 20px rgba(0,0,0,0.44);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+footer {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 400px;
+    
+}
+#contact {
+    width: 60%;
+    height: 300px;
+    margin-top: 10%;
+    border: 1px solid black;
+}
+.circle3 {
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, rgb(0, 126, 6), rgb(255, 255, 255));
+    box-shadow: 20px 14px 25px 12px  rgba(0,0,0,0.44);
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: -30%;
+   
+    
+    
+}
+#contact h3 {
+    font-family: "Cutive Mono";
+    font-size: 2em;
+    padding: 7%;
+    text-align: center;
+}
+#contact p {
+    font-family: "Cutive Mono";
+    font-size: 2.5em;
+    text-align: center;
+    color: #000000;
+}
+#contact a:link {
+    color: #000000;
+    text-decoration: none;
+}
+#contact a:visited {
+    color:#000000;
+}
+#contact a:hover {
+    color: #2b0cb6;
+}
