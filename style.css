@@ -105,12 +105,6 @@ float: left;
     color: black;
     
 }
-#about img {
-    float: right;
-    position: relative;
-    margin-top: -80%;
-    margin-right: -35%;
-}
 #art {
     width: 100%;
     height: auto;
@@ -121,11 +115,7 @@ float: left;
     font-family: Arial, Helvetica, sans-serif;
     margin: 1em;
 }
-#art img {
-    transform: rotate(60deg);
-    position: relative;
-    z-index: 2;   
-}
+
 .circle {
     
     border-radius: 50%;
